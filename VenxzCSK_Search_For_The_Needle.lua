@@ -61,8 +61,6 @@ pcall(function()
 end)
 pcall(function() Window:Tag({ Title = gameName, Color = Color3.fromHex("#5865F2") }) end)
 
-pcall(function() Window:Tag({ Title = Venxz CSK, Color = Color3.fromHex("#5865F2") }) end)
-
 local ConfigManager = Window.ConfigManager
 
 local function Notify(title, content, duration, icon)
