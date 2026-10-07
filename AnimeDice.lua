@@ -2,7 +2,7 @@ local Players = game:GetService("Players")
 local RS = game:GetService("ReplicatedStorage")
 local LocalPlayer = Players.LocalPlayer
 
-local AUTOEXEC_CODE = [[loadstring(game:HttpGet("https://raw.githubusercontent.com/Venxzmim1/animeastral/refs/heads/main/animedice.lua"))()]]
+local AUTOEXEC_CODE = [[loadstring(game:HttpGet("https://raw.githubusercontent.com/testui123-eheuy4/VenxzCsk/refs/heads/main/AnimeDice.lua"))()]]
 
 if game.PlaceId ~= 113290951185459 then
     error("[Anime Dice - Venxz] This script only works in Anime Dice.", 0)
